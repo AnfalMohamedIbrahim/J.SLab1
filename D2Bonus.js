@@ -4,7 +4,7 @@
 
  var a = prompt("enter number!");
  a= parseInt(a);
-//  console.log(a);
+// _
  var b = prompt("enter number!");
  b= parseInt(b);
 //  console.log(b);
