@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+
+        <input type="text" id="full-name" onfocus="border()" onblur="lostfocus()" placeholder="Enter Your FullName">
+        <span style="display: none;" id="error">Invalid Name</span>
+        <br><br>
+        <input type="email" id="email" placeholder="Enter Your Email">
+        <br> <br>
+        <select name="city" id="city">
+            <option value="aswan">Aswan</option>
+            <option value="cairo">Cairo</option>
+            <option value="alex">Alex</option>
+            <option value="assuit">Assuit</option>
+            <option value="qena">Qena</option>
+        </select>
+        <br> <br>
+       Enter Password: <input type="password" id="pass" onblur="check()">
+       <br> <br>
+       confirm Password: <input type="password" id="pass-confirm" onblur="check()"  >
+       <span style="display: none;" id="pass-error">The password and the confirm Password should be the same</span>
+       <br>
+       <input type="checkbox" name="terms" id="terms" >I accept the Terms and conditions
+       <br>
+       <button type="submit">Save</button>
+    </form>
+
+
+</body>
+<script src="./D4labQ1.js"></script>
+</html>
