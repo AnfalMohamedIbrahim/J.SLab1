@@ -16,6 +16,23 @@ todos.onreadystatechange= function(){
 
             id.innerText =todosarr[i] .id;
             comp.innerText = todosarr[i].completed;
+// added by me to color the text 
+
+// todosarr.forEach(element => {
+    
+//     if( element.completed="true")
+//     {
+//         comp.style.color="green";
+        
+        
+//     }
+//    if(element.completed="false")
+//     {
+//         comp.style.color="red";
+       
+//     }
+
+// });
 
             newdiv.appendChild(id);
             newdiv.appendChild(comp);
